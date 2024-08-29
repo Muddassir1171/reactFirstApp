@@ -46,11 +46,11 @@ const SlidingCards = () => {
             designation: 'Developer',
             badges: ['JavaScript', 'React', 'Node.js']
         },
-        
+
     ];
 
     return (
-        <div className='SlideArea'>
+        <div style={{ display: 'flex', gap: '10px', margin: '10px' }}>
             {
                 slideCardsData.map((cardData, index) => (
                     <HomeSlideCard
