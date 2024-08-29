@@ -1,0 +1,33 @@
+.slideCard {
+    background-color: blueviolet;
+    color: white;
+    position: relative;
+    width: 273px;
+    height: 340px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.personImage {
+    position: absolute;
+    z-index: 1;
+}
+
+.personInfo {
+    position: absolute;
+    z-index: 1;
+    font-weight: 500;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 20px;
+}
+
+.badges{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+

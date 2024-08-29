@@ -1,0 +1,8 @@
+.SlideArea{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+}
+
+
